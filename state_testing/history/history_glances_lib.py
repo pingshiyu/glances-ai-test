@@ -11,7 +11,7 @@ from __future__ import annotations
 from collections.abc import Callable
 from typing import Any
 
-from ._glances_loader import GlancesHistory
+from glances.history import GlancesHistory
 
 from state_testing.executor import make_executor
 

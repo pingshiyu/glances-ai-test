@@ -8,7 +8,7 @@
 
 import random
 
-from ._glances_loader import GlancesHistory
+from glances.history import GlancesHistory
 
 from .history_glances_lib import get_executors
 
